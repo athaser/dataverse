@@ -66053,7 +66053,7 @@ var Chelsea = /*#__PURE__*/function (_Component) {
     value: function componentena() {
       var _this2 = this;
 
-      alert("Great Shot!");
+      ///alert("Great Shot!");
       fetch('http://34.69.184.10:8000/api/login').then(function (res) {
         return res.json();
       }).then(function (result) {

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+require('./navbar')
+require('./backup/api2')
 
 class Car extends Component {
   render() {

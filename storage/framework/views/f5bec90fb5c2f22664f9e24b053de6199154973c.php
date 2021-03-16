@@ -25,7 +25,7 @@
 			<div class="section-bg">
   				<h1 style="text-align:center;">Dataverse</h1>
 			</div>
-        	<div id = "page"></div>
+        	<div id = "ira"></div>
 		</div>
 	</section>
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>

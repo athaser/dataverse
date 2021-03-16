@@ -39,7 +39,7 @@ class Chelsea extends Component {
     }
 
     componentena() {
-        alert("Great Shot!");
+        ///alert("Great Shot!");
         fetch('http://34.69.184.10:8000/api/login')
           .then(res => res.json())
           .then(

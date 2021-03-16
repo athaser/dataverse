@@ -6,7 +6,7 @@ function change(){
 	document.getElementById("my_field").value = txt;
 }
 
-class Chelsea extends Component {
+class Ira extends Component {
 
     constructor ()
     {
@@ -38,7 +38,7 @@ class Chelsea extends Component {
     }
 
     componentDidMount() {
-        alert("Great Shot!");
+        ///alert("Great Shot!");
         fetch('http://34.69.184.10:8000/api/login')
           .then(res => res.json())
           .then(
@@ -67,8 +67,8 @@ class Chelsea extends Component {
 }
 
 
-export default Chelsea;
+export default Ira;
 ReactDOM.render(
-	<Chelsea />,
-	document.getElementById('chelsea')
+	<Ira />,
+	document.getElementById('ira')
 );
