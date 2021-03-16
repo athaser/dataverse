@@ -28,8 +28,8 @@
         	<div id = "chelsea"></div>	
 		</div>
 	</section>
-	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
-        <script  src="<?php echo e(asset('js/app.js')); ?>"></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script  src="<?php echo e(asset('js/app.js')); ?>"></script>
     </body>
 </html>
 <?php /**PATH /home/karma_nirvami/my_linux_app/resources/views/welcome.blade.php ENDPATH**/ ?>
