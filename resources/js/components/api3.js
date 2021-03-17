@@ -68,7 +68,7 @@ class Iraklis extends Component {
                 <div><label>Lastname:<a>{this.state.lastname}</a></label></div>
                 <div><label>Email:<a>{this.state.email}</a></label></div>
                 <div><hr></hr></div>
-                <div><label>Address:<a>{this.state.email}</a></label></div>
+                <div><label>Address:<a>{this.state.address}</a></label></div>
                 <div><label style={{marginTop:"15px"}}>Gender:<a>{this.state.gender}</a></label></div>
                 <div><label style={{marginTop:"15px"}}>Purpose:<a>{this.state.purpose}</a></label></div>
                 <div><label style={{marginTop:"15px"}}>Activities:<a>{this.state.activities}</a></label></div>
