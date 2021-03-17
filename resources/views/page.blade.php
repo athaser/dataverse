@@ -25,10 +25,10 @@
 			<div class="section-bg">
   				<h1 style="text-align:center;">Dataverse</h1>
 			</div>
-        	<div id = "chelsea"></div>	
+        	<div id = "iraklis"></div>	
 		</div>
 	</section>
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-    <script  src="{{asset('js/app.js')}}"></script>
+    <script  src="{{mix('pagethree/js/pagethree.js')}}"></script>
     </body>
 </html>

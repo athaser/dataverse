@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 require('./navbar')
 require('./backup/api2')
-require('./backup/checkbox')
 
 
 class Car extends Component {

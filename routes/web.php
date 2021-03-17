@@ -35,4 +35,4 @@ Route::get('/page3', function () {
 
 Auth::routes();
 
-Route::get('/page', 'HomeController@index')->name('page');
+Route::get('/home', 'HomeController@index')->name('home');

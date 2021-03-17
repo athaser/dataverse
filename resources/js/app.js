@@ -14,4 +14,3 @@ require('./bootstrap');
 
 require('./components/api');
 require('./components/navbar');
-///require('./components/pagetwo');

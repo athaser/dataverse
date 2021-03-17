@@ -16,6 +16,10 @@ class UserController extends Controller
         $user->firstname= $req->input('firstname');
         $user->lastname= $req->input('lastname');
         $user->email= $req->input('email');
+        $user->address= $req->input('address');
+        $user->gender= $req->input('gender');
+        $user->purpose= $req->input('purpose');
+        $user->activities= $req->input('activities');
         $user->save();
         //return $req->input();
         return $user;

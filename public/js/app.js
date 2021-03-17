@@ -65920,7 +65920,7 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 __webpack_require__(/*! ./components/api */ "./resources/js/components/api.js");
 
-__webpack_require__(/*! ./components/navbar */ "./resources/js/components/navbar.js"); ///require('./components/pagetwo');
+__webpack_require__(/*! ./components/navbar */ "./resources/js/components/navbar.js");
 
 /***/ }),
 

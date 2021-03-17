@@ -52,12 +52,10 @@ class Ira extends Component {
                 firstname: result.firstname,
                 lastname: result.lastname,
                 email: result.email,
-                address: result.address
               });
             },
           )
       }
-    
 
     render () {
         return (
@@ -67,15 +65,15 @@ class Ira extends Component {
                 <div><label>Email:<input value = {this.state.email} style={{color: "red", alignSelf: "center", marginLeft:"25px"}} type="text" onChange={(item)=>{this.setState({email:item.target.value})}}/></label></div>
                 <div><hr></hr></div>
                 <div><label>Address:<input  value={this.state.address} onChange={(item)=>{this.setState({address:item.target.value})}} type="text"/></label></div>
-                <div><label style={{marginTop:"15px"}}>Gender:</label>
+                <div onChange={(item)=>{this.setState({gender:item.target.value})}}><label style={{marginTop:"15px"}}>Gender:</label>
                     <input style={{marginLeft:"10px"}} type="radio" id="male" name="gender" value="male"/>
                     <label style={{marginLeft:"10px"}} for="male">Male</label>
-                    <input style={{marginLeft:"10px"}} type="radio" id="female" name="gender" value="female"/>
+                    <input style={{marginLeft:"10px"}} type="radio" id="female" name="gender" value="Female"/>
                     <label style={{marginLeft:"10px"}} for="female">Female</label>
                 </div>
-                <div><label style={{marginTop:"15px"}}>Purpose</label>
+                <div onChange={(item)=>{this.setState({purpose:item.target.value})}}><label style={{marginTop:"15px"}}>Purpose</label>
                     <form>
-                        <select value={this.state.mycar}>
+                        <select value={this.state.purpose}>
                             <option value="Select One">Select One</option>
                             <option value="business">business</option>
                             <option value="pleasure">pleasure</option>
@@ -83,12 +81,13 @@ class Ira extends Component {
                         </select>
                     </form>
                 </div>
-                <div><label style={{marginTop:"15px"}}>Activities:</label>
+                <div onChange={(item)=>{this.setState({purpose:item.target.value})}}> <label style={{marginTop:"15px"}}>Activities:</label>
                     <form>
                         <label style={{marginLeft:"10px"}}>
                             football:
                             <input 
-                            name="isGoing"
+                            name="football"
+                            value = "football"
                             type="checkbox"
                             checked={this.state.isGoing}
                             onChange={this.handleInputChange} />
@@ -96,7 +95,8 @@ class Ira extends Component {
                         <label style={{marginLeft:"10px"}}>
                             basketball:
                             <input
-                            name="isGoing"
+                            name="basketball"
+                            value = "basketball"
                             type="checkbox"
                             checked={this.state.isGoing}
                             onChange={this.handleInputChange} />
@@ -104,7 +104,8 @@ class Ira extends Component {
                         <label style={{marginLeft:"10px"}}>
                             tennis:
                             <input
-                            name="isGoing"
+                            name="tennis"
+                            value = "tennis"
                             type="checkbox"
                             checked={this.state.isGoing}
                             onChange={this.handleInputChange} />
@@ -112,7 +113,8 @@ class Ira extends Component {
                         <label style={{marginLeft:"10px"}}>
                             e-sports:
                             <input
-                            name="isGoing"
+                            name="e-sports"
+                            value = "e-sports"
                             type="checkbox"
                             checked={this.state.isGoing}
                             onChange={this.handleInputChange} />
